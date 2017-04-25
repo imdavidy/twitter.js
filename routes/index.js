@@ -6,4 +6,8 @@ router.get('/', function (req, res) {
   res.render( 'index', {title: 'Twitter', tweets: tweets } );
 });
 
+router.get('/stylesheets/style.css', function (req, res) {
+  res.sendFile('/Users/Fullstack/Junior/twitter.js/public/stylesheets/style.css');
+});
+
 module.exports = router;
