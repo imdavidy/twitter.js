@@ -21,8 +21,3 @@ app.use(function (req, res, next){
     console.log(req.baseURL);
     next();
 });
-
-// app.get('/', function(req, res){
-//   const tweets = tweetBank.find();
-//   res.render('index', {title: 'Tweets', tweets: tweets});
-// });
